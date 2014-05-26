@@ -19,8 +19,9 @@ BBLAYERS ?= \
 	$(CURDIR)/meta-openembedded/meta-oe \
 	$(CURDIR)/meta-openembedded/meta-multimedia \
 	$(CURDIR)/meta-openembedded/meta-networking \
+        $(CURDIR)/meta-openembedded/meta-filesystems \
 	$(CURDIR)/openembedded-core/meta \
-	$(CURDIR)/meta-oe-alliance \
+	$(CURDIR)/meta-oe-alliance/meta-oe \
 
 CONFFILES = \
 	$(TOPDIR)/env.source \
