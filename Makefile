@@ -260,7 +260,7 @@ MACHINEBUILD=mutant2400
 
 else ifeq ($(MACHINEBUILD),amiko8900)
 MACHINE=spark
-MACHINEBUILD=mamiko8900
+MACHINEBUILD=amiko8900
 else ifeq ($(MACHINEBUILD),sognorevolution)
 MACHINE=spark
 MACHINEBUILD=sognorevolution
