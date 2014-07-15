@@ -270,6 +270,13 @@ MACHINEBUILD=arguspingulux
 else ifeq ($(MACHINEBUILD),sparkreloaded)
 MACHINE=spark
 MACHINEBUILD=sparkreloaded
+else ifeq ($(MACHINEBUILD),fulanspark1)
+MACHINE=spark
+MACHINEBUILD=fulanspark1
+else ifeq ($(MACHINEBUILD),sabsolo)
+MACHINE=spark
+MACHINEBUILD=sabsolo
+
 else ifeq ($(MACHINEBUILD),amikoalien)
 MACHINE=spark7162
 MACHINEBUILD=amikoalien
@@ -279,6 +286,9 @@ MACHINEBUILD=sognotriple
 else ifeq ($(MACHINEBUILD),sparktriplex)
 MACHINE=spark7162
 MACHINEBUILD=sparktriplex
+else ifeq ($(MACHINEBUILD),sabtriple)
+MACHINE=spark7162
+MACHINEBUILD=sabtriple
 
 endif
 
