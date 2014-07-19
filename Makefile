@@ -267,6 +267,12 @@ MACHINEBUILD=sognorevolution
 else ifeq ($(MACHINEBUILD),arguspingulux)
 MACHINE=spark
 MACHINEBUILD=arguspingulux
+else ifeq ($(MACHINEBUILD),arguspinguluxmini)
+MACHINE=spark
+MACHINEBUILD=arguspinguluxmini
+else ifeq ($(MACHINEBUILD),arguspinguluxplus)
+MACHINE=spark
+MACHINEBUILD=arguspinguluxplus
 else ifeq ($(MACHINEBUILD),sparkreloaded)
 MACHINE=spark
 MACHINEBUILD=sparkreloaded
