@@ -285,6 +285,10 @@ MACHINEBUILD=sabsolo
 else ifeq ($(MACHINEBUILD),sparklx)
 MACHINE=spark
 MACHINEBUILD=sparklx
+else ifeq ($(MACHINEBUILD),gis8120)
+MACHINE=spark
+MACHINEBUILD=gis8120
+
 
 else ifeq ($(MACHINEBUILD),amikoalien)
 MACHINE=spark7162
