@@ -267,6 +267,12 @@ MACHINEBUILD=sognorevolution
 else ifeq ($(MACHINEBUILD),arguspingulux)
 MACHINE=spark
 MACHINEBUILD=arguspingulux
+else ifeq ($(MACHINEBUILD),arguspinguluxmini)
+MACHINE=spark
+MACHINEBUILD=arguspinguluxmini
+else ifeq ($(MACHINEBUILD),arguspinguluxplus)
+MACHINE=spark
+MACHINEBUILD=arguspinguluxplus
 else ifeq ($(MACHINEBUILD),sparkreloaded)
 MACHINE=spark
 MACHINEBUILD=sparkreloaded
@@ -276,6 +282,13 @@ MACHINEBUILD=fulanspark1
 else ifeq ($(MACHINEBUILD),sabsolo)
 MACHINE=spark
 MACHINEBUILD=sabsolo
+else ifeq ($(MACHINEBUILD),sparklx)
+MACHINE=spark
+MACHINEBUILD=sparklx
+else ifeq ($(MACHINEBUILD),gis8120)
+MACHINE=spark
+MACHINEBUILD=gis8120
+
 
 else ifeq ($(MACHINEBUILD),amikoalien)
 MACHINE=spark7162
@@ -289,6 +302,12 @@ MACHINEBUILD=sparktriplex
 else ifeq ($(MACHINEBUILD),sabtriple)
 MACHINE=spark7162
 MACHINEBUILD=sabtriple
+else ifeq ($(MACHINEBUILD),giavatar)
+MACHINE=spark7162
+MACHINEBUILD=giavatar
+else ifeq ($(MACHINEBUILD),sparkone)
+MACHINE=spark7162
+MACHINEBUILD=sparkone
 
 endif
 
