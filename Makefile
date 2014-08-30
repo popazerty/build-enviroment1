@@ -42,6 +42,7 @@ BBLAYERS ?= \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-xp \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-xtrend \
  	$(CURDIR)/meta-oe-alliance/meta-brands/meta-fulan \
+	$(CURDIR)/meta-local \
 
 
 CONFFILES = \
@@ -121,6 +122,9 @@ MACHINEBUILD=optimussos2
 else ifeq ($(MACHINEBUILD),tmnano2super)
 MACHINE=dags3
 MACHINEBUILD=tmnano2super
+else ifeq ($(MACHINEBUILD),tmnano3t)
+MACHINE=dags3
+MACHINEBUILD=tmnano3t
 else ifeq ($(MACHINEBUILD),force1)
 MACHINE=dags3
 MACHINEBUILD=force1
