@@ -43,7 +43,6 @@ BBLAYERS ?= \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-vuplus \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-xp \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-xtrend \
- 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-fulan \
 	$(CURDIR)/meta-local \
 
 
